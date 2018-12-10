@@ -5,7 +5,7 @@ function _quit(){
 	while true
 	do
 		read quitkey
-		if [ quitkey=='' ]
+		if [ quitkey=="" ]
 		then
 			exit
 		fi
