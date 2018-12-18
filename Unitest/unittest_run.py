@@ -15,5 +15,5 @@ if __name__ == '__main__':
     log_path = 'D:\\PyTest\\logfile\\1.html'
 
     with open(log_path,'w') as f:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=f,title='AutoTestResult')
+        runner = HTMLTestRunner.HTMLTestRunner(stream=f,title=u'自动化测试结果')
         runner.run(suit)
