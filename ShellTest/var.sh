@@ -12,3 +12,7 @@ echo "删除变量"
 unset var
 echo "${var}"
 
+. ./quitfunc.sh
+_quit
+echo "$?"
+

@@ -11,5 +11,3 @@ function _quit(){
 		fi
 	done
 }
-
-_quit
