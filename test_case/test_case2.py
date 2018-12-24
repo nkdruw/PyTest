@@ -2,7 +2,7 @@
 import unittest
 from TestAW.switch_list import switch_list
 
-class switchlist(unittest.TestCase):
+class Test_switchlist(unittest.TestCase):
 
     def setUp(self):
         self.a = []
